@@ -9,7 +9,7 @@ function NewsItem() {
         alt=""
         className="w-full object-cover"
       />
-      <div className="w-full p-8 space-y-3">
+      <div className="w-full md:p-4 lg:p-8 space-y-3">
         <p className="font-medium text-gray-500 text-sm flex items-center gap-2">
           <FaRegCalendarAlt /> October 30, 2022
         </p>
