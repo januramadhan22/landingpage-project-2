@@ -9,9 +9,9 @@ import { RiCustomerService2Line } from "react-icons/ri";
 function SpecialitiesItem({ title, icon, isLarge }) {
   return (
     <div
-      className={`max-w-xs h-[340px] rounded p-10 flex flex-col items-center justify-between  gap-4 text-center shadow-xl ${
+      className={`max-w-xs md:h-[320px] lg:h-[340px] rounded md:px-4 md:pb-4 md:pt-7 lg:p-10 flex flex-col items-center justify-between  gap-4 text-center shadow-xl ${
         isLarge
-          ? "bg-green-500 h-[380px] pt-14 text-white"
+          ? "bg-green-500 md:h-[340px] lg:h-[380px] lg:pt-14 text-white"
           : "bg-white text-black"
       }`}
     >

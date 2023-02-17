@@ -20,7 +20,7 @@ function ServicesItem({ title, isDesc, value }) {
       ) : (
         <div
           id="serviceItem"
-          className="group space-y-2 text-center border-b-[3px] p-8 text-gray-500 border-b-green-500 rounded-sm hover:bg-green-500 shadow-md transition ease-linear duration-200"
+          className="group space-y-2 text-center border-b-[3px] md:p-4 lg:p-8 text-gray-500 border-b-green-500 rounded-sm hover:bg-green-500 shadow-md transition ease-linear duration-200"
         >
           <span
             key={value}
