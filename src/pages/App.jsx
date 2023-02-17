@@ -2,6 +2,7 @@ import AboutUs from "../components/AboutUs";
 import Banner from "../components/Banner";
 import ClientsAndSponsor from "../components/ClientsAndSponsor";
 import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 import Contact from "../components/header/Contact";
 import Navbar from "../components/header/Navbar";
 import News from "../components/News";
@@ -27,6 +28,10 @@ function App() {
       <ContactUs />
       <News />
       {/* Sections */}
+
+      {/* Footer */}
+      <Footer />
+      {/* Footer */}
     </div>
   );
 }
