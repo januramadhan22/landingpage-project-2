@@ -3,7 +3,7 @@ import ServicesItem from "./card/ServicesItem";
 
 function Services() {
   return (
-    <div className="w-full py-16 md:px-12 lg:px-24 grid grid-cols-3 justify-center md:gap-3 lg:gap-10">
+    <div className="w-full py-16 px-8 md:px-12 lg:px-24 grid grid-cols-2 md:grid-cols-3 justify-center gap-3 lg:gap-10">
       <ServicesItem title={"Our Service"} isDesc />
       <ServicesItem title={"Management Investment"} value={1} />
       <ServicesItem title={"Financial Report"} value={2} />

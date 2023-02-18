@@ -4,7 +4,7 @@ function Navbar() {
   const menuBar = ["Home", "About Us", "Services", "Cases", "Pages", "Contact"];
 
   return (
-    <div className="w-full sticky top-0 z-50 py-5 px-8 md:px-16 flex justify-between items-center bg-white shadow-md">
+    <div className="hidden w-full sticky top-0 z-50 py-5 px-8 md:px-16 md:flex justify-between items-center bg-white shadow-md">
       <h1 className="text-xl font-bold">Brand Logo</h1>
       <div className="m-0 flex gap-3 text-xs font-bold text-gray-500 ">
         {menuBar.map((item) => (

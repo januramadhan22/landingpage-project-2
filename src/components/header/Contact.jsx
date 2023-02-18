@@ -5,7 +5,7 @@ import { FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="w-full py-2 px-8 md:px-16 flex justify-between bg-gradient-to-r from-green-400 to-cyan-500">
+    <div className="hidden w-full py-2 px-8 md:px-16 md:flex justify-between bg-gradient-to-r from-green-400 to-cyan-500">
       {/* Left Content */}
       <div className="w-fit flex gap-3 items-center text-white text-sm font-medium">
         <span className="flex items-center gap-1.5">

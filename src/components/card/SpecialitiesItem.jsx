@@ -9,9 +9,9 @@ import { RiCustomerService2Line } from "react-icons/ri";
 function SpecialitiesItem({ title, icon, isLarge }) {
   return (
     <div
-      className={`max-w-xs md:h-[320px] lg:h-[340px] rounded md:px-4 md:pb-4 md:pt-7 lg:p-10 flex flex-col items-center justify-between  gap-4 text-center shadow-xl ${
+      className={`w-[280px] md:max-w-xs h-fit md:h-[320px] lg:h-[340px] rounded px-5 md:px-4 pb-5 md:pb-4 pt-5 md:pt-7 lg:p-10 flex flex-col items-center md:justify-between gap-2 md:gap-4 text-center shadow-xl ${
         isLarge
-          ? "bg-green-500 md:h-[340px] lg:h-[380px] lg:pt-14 text-white"
+          ? "bg-green-500 h-fit md:h-[340px] lg:h-[380px] pt-6 lg:pt-14 text-white"
           : "bg-white text-black"
       }`}
     >
@@ -25,7 +25,7 @@ function SpecialitiesItem({ title, icon, isLarge }) {
         )}
       </span>
 
-      <div className="space-y-4">
+      <div className="md:space-y-4">
         <h2 className="text-xl font-semibold">{title}</h2>
         <p className={isLarge ? "text-gray-100" : "text-gray-500"}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam
