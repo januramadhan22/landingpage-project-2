@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Footer() {
   return (
-    <div className="w-full py-14 px-20 bg-stone-800 flex flex-col gap-10 items-center">
+    <div className="hidden w-full py-14 px-20 bg-stone-800 md:flex flex-col gap-10 items-center">
       {/* Top Content */}
       <div className="w-full flex justify-between gap-6">
         {/* Left Content */}
