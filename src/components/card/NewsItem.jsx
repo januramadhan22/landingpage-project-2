@@ -9,19 +9,19 @@ function NewsItem() {
         alt=""
         className="w-full object-cover"
       />
-      <div className="w-full md:p-4 lg:p-8 space-y-3">
-        <p className="font-medium text-gray-500 text-sm flex items-center gap-2">
+      <div className="w-full p-4 lg:p-8 space-y-3">
+        <p className="font-medium text-gray-500 text-xs md:text-sm flex items-center gap-2">
           <FaRegCalendarAlt /> October 30, 2022
         </p>
-        <h3 className="text-xl font-bold text-gray-700">
+        <h3 className="text-lg md:text-xl font-bold text-gray-700">
           How to Start a Successful SaaS Company in 2022
         </h3>
-        <p className="font-medium text-gray-500">
+        <p className="text-xs md:text-base font-medium text-gray-500">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam labore
           odit reiciendis eum non, reprehenderit at aspernatur ratione eius
           commodi!
         </p>
-        <button className="w-fit mt-4 px-6 py-2.5 text-white text-xs uppercase font-medium rounded-sm bg-green-500 hover:bg-green-700">
+        <button className="w-fit mt-4 px-6 py-2 md:py-2.5 text-white text-xs uppercase font-medium rounded-sm bg-green-500 hover:bg-green-700">
           Read More
         </button>
       </div>
