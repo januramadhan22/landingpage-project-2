@@ -35,7 +35,7 @@ function AboutUs() {
         </div>
 
         {/* Right Content */}
-        <div className="w-full md:w-full lg:w-1/2 flex flex-col items-center gap-1 md:gap-3 text-center lg:text-left px-8 md:px-0">
+        <div className="w-full md:w-full lg:w-1/2 flex flex-col items-center lg:items-start gap-1 md:gap-3 text-center lg:text-left px-8 md:px-0">
           <h3 className=" text-green-500 font-bold text-xl">About Us</h3>
           <h1 className="md:w-10/12 lg:max-w-md text-3xl md:text-5xl font-bold ">
             Discover The World of Financial Planner
